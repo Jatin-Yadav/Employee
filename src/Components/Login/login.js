@@ -39,7 +39,7 @@ function Login({ setDashboard }) {
             />
             <button className="submitbtn">Reset Password</button>
             <p class="signup" align="center">
-              <a href="#">
+              <a href="/#">
                 "Already a member?"
                 <span
                   onClick={() => {
@@ -51,7 +51,7 @@ function Login({ setDashboard }) {
               </a>
             </p>
             <p class="signup" align="center">
-              <a href="#">
+              <a href="/#">
                 "Not a member?"
                 <span
                   onClick={() => {
@@ -95,7 +95,7 @@ function Login({ setDashboard }) {
               <div className="forgot">
                 <p>
                   <a
-                    href="#"
+                    href="/#"
                     onClick={() => {
                       handleForgotPass("forgotPassword");
                     }}
@@ -109,7 +109,7 @@ function Login({ setDashboard }) {
               {signup ? "Sign Up" : "Log In"}
             </button>
             <p class="signup" align="center">
-              <a href="#">
+              <a href="/#">
                 {signup ? "Already a member?" : "Not a member?"}
                 <span onClick={handleSigniup}>
                   {signup ? "Log In?" : "SignUp?"}

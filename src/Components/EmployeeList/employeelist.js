@@ -78,7 +78,7 @@ function Employeelist() {
                 <td>{obj.email}</td>
                 <td>{obj.enroll}</td>
                 <td>
-                  <a href="#">Edit</a>,<a href="#">Delete</a>
+                  <a href="/#">Edit</a>,<a href="/#">Delete</a>
                 </td>
               </tr>
             );
