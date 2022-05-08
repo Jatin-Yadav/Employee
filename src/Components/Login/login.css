@@ -1,0 +1,101 @@
+.loginwrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3ebf6;
+}
+.main {
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+  padding-top: 30px;
+  color: #8c55aa;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  align-self: center;
+  margin: 10px 0;
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.pass {
+  align-self: center;
+  margin-top: 10px;
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.submitbtn {
+  height: 35px;
+  align-self: center;
+  margin: 10px 0;
+  width: 76%;
+  cursor: pointer;
+  background: linear-gradient(to right, #9c27b0, #e040fb);
+  border: 0;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+}
+.user:focus,
+.pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  margin-bottom: 2px;
+  width: 76%;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #9c27b0;
+  text-decoration: none;
+}
+span {
+  color: blue;
+}

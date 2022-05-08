@@ -1,0 +1,86 @@
+.attendancewrapper {
+  width: 85vw;
+}
+.searchWraper {
+  padding: 15px;
+  height: 30vh;
+  background-color: #d9c5e2;
+}
+
+.inputfields {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputfields > div {
+  width: 45%;
+}
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+input {
+  align-self: center;
+  margin: 10px 0;
+  width: 100%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.searchbtn {
+  float: right;
+  height: 35px;
+  align-self: center;
+  margin: 10px 0;
+  width: 25%;
+  cursor: pointer;
+  background: linear-gradient(to right, #9c27b0, #e040fb);
+  border: 0;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+}
+
+.searchresult {
+  height: 50vh;
+  padding: 15px;
+}
+
+.employeeresult {
+  width: 100%;
+  height: 50vh;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b896c5;
+}
