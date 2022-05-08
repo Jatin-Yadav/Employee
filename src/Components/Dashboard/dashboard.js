@@ -7,7 +7,7 @@ function Dashboard({ setDashboard }) {
   const [employeelist, setEmployeelist] = useState(false);
   const [attendance, setAttendance] = useState(false);
 
-  const [employee, setEmployee] = useState([
+  const [employee] = useState([
     { id: "12546", name: "Jatin Yadav", email: "jatin@gmail.com" },
     { id: "12546", name: "Dheeraj Kumar", email: "dkyadav@gmail.com" },
     { id: "12546", name: "Akansha Rana", email: "akrana@gmail.com" },

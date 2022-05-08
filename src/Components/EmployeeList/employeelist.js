@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./employeelist.css";
 
 function Employeelist() {
-  const [employee, setEmployee] = useState([
+  const [employee] = useState([
     {
       id: "12546",
       name: "Jatin Yadav",
@@ -78,7 +78,7 @@ function Employeelist() {
                 <td>{obj.email}</td>
                 <td>{obj.enroll}</td>
                 <td>
-                  <a>Edit</a>,<a>Delete</a>
+                  <a href="#">Edit</a>,<a href="#">Delete</a>
                 </td>
               </tr>
             );

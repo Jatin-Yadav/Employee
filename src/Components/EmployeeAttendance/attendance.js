@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./attendance.css";
 
 function Attendance() {
-  const [employee, setEmployee] = useState([
+  const [employee] = useState([
     {
       id: "12546",
       name: "Jatin Yadav",
